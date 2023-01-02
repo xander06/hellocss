@@ -4,13 +4,7 @@ const Footer = ({nombre,telf,email,usuariogit}) => {
     return (
     <>
     <div className="footer-tittle">
-    <h1 className="footer-text">Creado por {nombre}</h1> 
-    <div>
-    <p className="footer-text">Mi contacto es:{telf}  </p>
-    <p className="footer-text">Mi correo es: {email} </p>
-    <p className="footer-text">Mi contacto es: {usuariogit} </p>
-    </div>
-    
+    <span className="footer-text">Creado por {nombre}</span>      
     </div>
     </>
     );

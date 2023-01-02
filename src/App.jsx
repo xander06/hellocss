@@ -9,7 +9,7 @@ import About from './pages/About';
 export const App = () => {
   
   const footerinfo = {
-    nombre: 'Alexander',
+    nombre: '© Kruger Corp. 2022. Transforming Enterprises, Boosting Lives.',
     telf: '+593 994 634 469',
     email: 'kruger@info.com',
     usuariogit: '@gitUser',
