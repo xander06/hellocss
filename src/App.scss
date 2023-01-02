@@ -6,6 +6,23 @@
     width: 100vw;    
 }
 
+.playground{
+    width: 60%;
+    position: relative;
+    margin:auto;
+    margin-top: 3%;
+    font-size: x-large;
+}
+
+.playground h1 {
+    text-align: center;
+    margin: 2% 0 ;
+}
+
+.playground p {
+    text-align: justify;    
+}
+
 .nav-bar{
     width: 100%;
     top: 0;
