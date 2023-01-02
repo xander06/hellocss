@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About';
+import IMGcalc from './pages/IMGcalc';
+import Agecalc from './pages/Agecalc';
 
 export const App = () => {
   
@@ -23,6 +25,8 @@ export const App = () => {
         </div>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/imgcalc" element={<IMGcalc />}/>
+          <Route path="/agecalc" element={<Agecalc />}/>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

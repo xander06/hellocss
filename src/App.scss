@@ -91,3 +91,57 @@
 .logo img {
     width: 70px;
 }
+
+.age-calculate{
+	max-width: 600px;
+	width: 100%;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+	border-radius: 30px;
+	background: linear-gradient(to bottom, #007193 50%, #06024e);
+}
+.calculadora{
+  padding-top: 20px;
+}
+
+.age-calculate input[type="date"]{
+	width: 40%;
+	
+	margin: 10px;
+	font-size:18px;
+	padding: 10px;
+	border-radius: 10px;
+	border:0;
+}
+.age-calculate button{
+	width: 40%;
+  margin: 10px;
+  font-size: 16px;
+  padding: 13px;
+  border-radius: 10px;
+  border: 0;
+  background: #00a1ed;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.age {
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(17, 17, 180);
+  font-size: 14px;
+  padding: 8px;
+  width: 36px;
+  height: 50px;
+  margin-left: 20px;
+  display: inline-flex;
+}
+.age-container{
+  display: inline-block;
+  align-items: center;
+  
+}
