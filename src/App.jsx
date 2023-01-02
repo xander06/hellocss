@@ -1,12 +1,13 @@
-import './App.css';
+import './App.scss';
 import ContactPage from './pages/Contactpage';
 import Homepage from "./pages/Homepage";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About';
-export const App = () => {
 
+export const App = () => {
+  
   const footerinfo = {
     nombre: 'Alexander',
     telf: '+593 994 634 469',
@@ -16,9 +17,10 @@ export const App = () => {
 
   return (
     <div className="container">
-
       <Router>
+        <div className='nav-bar'>
         <NavBar />
+        </div>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
