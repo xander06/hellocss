@@ -1,11 +1,9 @@
-import Contador from "../components/Contador"
+import Saludo from "../components/Saludo";
+
 
 const About = () => {
     return (
-    <div>
-        <h1>Función de Contador</h1>
-        <Contador />
-    </div>
+    <Saludo />
     );
 }
 

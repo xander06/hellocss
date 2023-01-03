@@ -12,8 +12,8 @@ const NavBar = () => {
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"}  to="/">Home</NavLink>
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"} to="/imgcalc">IMC Calculator</NavLink>
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"} to="/agecalc">Age Calculator</NavLink>
-               <div className="logo"><img src="https://krugercorp.com/wp-content/uploads/2022/10/logo-Kruger-Principal.png"/>
-               <a > kruger</a></div> 
+               <div className="logo"><img src="../img/logo.png" alt="Logo kruger"/>
+               <a > Kruger Start</a></div> 
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"} to="/clock">My Clock</NavLink>
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"} to="/about">About Me</NavLink>
                <NavLink className={({isActive}) => isActive ? "navelementact" : "navelement"} to="/contact">Contact</NavLink>
