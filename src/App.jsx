@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import IMGcalc from './pages/IMGcalc';
 import Agecalc from './pages/Agecalc';
+import Clock from './pages/Clock';
 
 export const App = () => {
   
@@ -27,6 +28,7 @@ export const App = () => {
           <Route path="/" element={<Homepage />} />
           <Route path="/imgcalc" element={<IMGcalc />}/>
           <Route path="/agecalc" element={<Agecalc />}/>
+          <Route path="/clock" element={<Clock />}/>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
