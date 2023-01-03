@@ -46,7 +46,7 @@ const Masa = () =>{
         clasificar(imc);
     }, [masa,altura,imc])
     return(
-        <div>
+        <div className="imc">
             <h2>IMC</h2>
             <label>peso</label>
             <input type="range" 

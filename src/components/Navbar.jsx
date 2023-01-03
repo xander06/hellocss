@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
-    const navelement="navelement";
-    const navelementact="navelementact";
+    
     return (
         <>
             <div className="nav-tittle">
