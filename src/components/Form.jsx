@@ -14,8 +14,9 @@ const Form = () => {
             <div class="form-group">
                 <textarea class="form-control" name='mensaje' id="mensaje" rows="3" placeholder='Enter your text here'></textarea>
             </div>
+            <div class="form-group">
             <button class="btn-send" type="submit">Enviar</button>
-
+            </div>
         </div>
     );
 }

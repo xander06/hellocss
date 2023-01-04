@@ -20,13 +20,13 @@ body{
 }
 
 .playground h1 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    /* or 150% */
-    text-align: center;
-    letter-spacing: -0.015em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  margin: auto;
 }
 
 .playground p {
@@ -38,36 +38,48 @@ body{
     line-height: 50px; 
 }
 
-.nav-bar{
-    width: 100%;
-    top: 0;
-    position: relative;
-    text-align: center;
-    margin-bottom: 1%;
+.nav-bar {
+  width: 100%;
+  top: 0;
+  position: flex;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 .nav-tittle {
-    text-align: center;
-    font-weight: bold;
-    height: auto;
-    display: block;
-    width: 94%;
-    margin: auto;
-    padding: 1%;
-    position: relative;
-    border-bottom: 1px solid #575555;
+  text-align: center;
+  font-weight: bold;
+  display: inline-flex;
+  font-weight: bold;
+  height: auto;
+  flex-flow: row wrap;
+  width: 94%;
+  margin: auto;
+  padding: 1%;
+  justify-content: space-between;
+  border-bottom: 1px solid #575555;
 }
-.nav-tittle p {
-display: inline;
-}
-
-.navelement{
+.navelement {
     margin: 2%;
     color: black;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     position: relative;
     text-decoration:none;
 }
+
+.logo {
+margin-top: -1%;
+}
+
+.logo p {
+  display: inline;
+  display: inline;
+  font-family: 'Comfortaa', cursive; 
+  font-weight: 400;
+  font-size:28.44px;
+  margin-top: -2%;
+  }
 
 .navelementact{
     margin: 2%;
@@ -79,13 +91,11 @@ display: inline;
     
 }
 
-.footer-tittle{
-    position: absolute;
+.footer-tittle {
     text-align: center;
-    bottom: 0;
-    width: 100%;
-    display: ruby;
-    }
+    flex-grow: 1;
+    color: #575555;
+ }
 
 .vaca-tittle{
     display:flex;
@@ -98,14 +108,7 @@ display: inline;
     font-family: sans-serif;
 }
 
-.logo {
-    display: inline;
-    font-family: 'Comfortaa', cursive; 
-    font-weight: 400;
-    font-size:28.44px;
-}
-
-.age-calculate{
+.age-calculate {
 	max-width: 600px;
 	width: 100%;
 	color: #fff;
@@ -298,9 +301,8 @@ display: inline;
 
   .aboutme{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:auto;
+    margin: 1%;
+    flex-flow: row wrap;
 }
 
 .aboutme h1{
@@ -361,4 +363,85 @@ display: inline;
     text-align: center;
     border-radius: 18px;
     width: 20%;
+}
+/* hamburg*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+   /* Estilos móvil/celular */
+   @media all and (max-width: 700px) {
+
+    /* Oculta el nav en la parte izquiera */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: red;
+      transform: translateX(-100vw);
+      transition: 0.5s;
+    }
+
+    /* Muestra el nav */
+    .nav--show {
+      transform: translateX(0);
+    }
+
+    .nav__button {
+      text-align: right;
+      margin: 1rem;
+    }
+
+    .nav__ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav__link {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+  }
+ /* Estilos Escritorio */
+ @media all and (min-width: 701px) {
+
+  /* Oculta botón de abrir o cerrar */
+  .nav__button,
+  .header__button-nav--open {
+    display: none;
+  }
+
+  /* Adapta el nav en horizontal */
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+
+  .nav__link:hover {
+    opacity: 0.5;
+  }
 }

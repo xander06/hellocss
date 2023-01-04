@@ -19,7 +19,8 @@ export const App = () => {
   };
 
   return (
-    <div className="container">
+    <>
+     <div className="container">
       <Router>
         <div className='nav-bar'>
         <NavBar />
@@ -36,5 +37,6 @@ export const App = () => {
       </Router>
 
     </div>
+    </>
   )
 };
