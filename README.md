@@ -1,5 +1,8 @@
 # App Playground con React
-- In this repository you can  see at small applications developer with con React
+
+<img src='./public/img/logo.png'> 
+
+- In this repository you can  see at small applications developer with con React, in the "[Kruger Start](https://www.youtube.com/@KrugerCorp)   "
 
 <img src='./public/img/screenapp.JPG'>
 
@@ -13,7 +16,7 @@
 
 ## Getting Started
 
-**In this repository I will create my personal Portfolio with some of my projects.**
+**In this repository I will upload some of my applications deveolped in Kruger Start.**
 
 ## Run it
 
@@ -23,7 +26,7 @@ Use the following steps to run this Portfolio locally:
 
 - get in the directory you want this folder to appear
 
-- put: git clone git@github.com:Juanse7793/Portfolio.git
+- put: git clone https://github.com/xander06/hellocss
 
 - open the folder with a code editor (VS Code preferred)
 
@@ -34,23 +37,28 @@ Use the following steps to run this Portfolio locally:
 
 For a live demo please click on the following link:
 
-https://juanse7793.github.io/Portfolio/
+https://xanderhellocss.netlify.app/
 
 ## Authors
 
-👤 **Author1**
+👤 **Xavier Alexander Cangas**
 
-- GitHub: [@Juanse7793](https://github.com/Juanse7793)
-- Twitter: [@Juanse77930](https://twitter.com/Juanse77930)
-- LinkedIn: [Juan Sebastian Sotomayor](https://linkedin.com/in/juan-sebastian-sotomayor-2bb395198)
+- GitHub: [@Xander06](https://github.com/xander06)
+- LinkedIn: [Alexander Cangás](https://www.linkedin.com/in/alexander-c-00a2967b/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+## License
 
-## Show your support
+X@NDER06
+**Free Software, Yeah!**
 
-Give a ⭐️ if you like this project!
+
+## Roadmap
+
+- Additional browser support
+Add
+- Add more integrations
