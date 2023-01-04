@@ -6,7 +6,7 @@ const NavBar = () => {
 
     return (
     <>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+     <Navbar collapseOnSelect expand="lg"  variant="light">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -21,7 +21,7 @@ const NavBar = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    </>
+     </>
     );
 }
 export default NavBar

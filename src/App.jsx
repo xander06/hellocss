@@ -22,7 +22,7 @@ export const App = () => {
     <>
      <div className="container">
       <Router>
-        <div className='nav-bar'>
+        <div className='nav-tittle'>
         <NavBar />
         </div>
         <Routes>

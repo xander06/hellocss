@@ -1,22 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100&display=swap');
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-.container{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    width: 100vw;    
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
-.playground{
-    width: 60%;
-    position: relative;
-    margin:auto;
-    margin-top: 3%;
-    
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.navbar-expand-lg .navbar-nav {
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: 1px solid #575555;
+}
+
+.posini {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.playground {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  margin-top: 3%;
+
 }
 
 .playground h1 {
@@ -26,16 +40,16 @@ body{
   line-height: 72px;
   text-align: center;
   letter-spacing: -0.015em;
-  margin: auto;
+  margin: 4%;
 }
 
 .playground p {
-    text-align: justify;
-    font-size: 38px;   
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 50px; 
+  text-align: justify;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
 }
 
 .nav-bar {
@@ -49,88 +63,84 @@ body{
 .nav-tittle {
   text-align: center;
   font-weight: bold;
-  display: inline-flex;
-  font-weight: bold;
-  height: auto;
-  flex-flow: row wrap;
   width: 94%;
   margin: auto;
   padding: 1%;
-  justify-content: space-between;
-  border-bottom: 1px solid #575555;
 }
+
 .navelement {
-    margin: 2%;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    text-decoration:none;
+  margin: 2%;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  text-decoration: none;
 }
 
 .logo {
-margin-top: -1%;
+  display: block ruby;
 }
 
 .logo p {
-  display: inline;
-  display: inline;
-  font-family: 'Comfortaa', cursive; 
-  font-weight: 400;
-  font-size:28.44px;
-  margin-top: -2%;
-  }
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  font-weight:400px ;
+  font-size: 22px;
+}
 
-.navelementact{
-    margin: 2%;
-    color: black;
-    display: inline-block;
-    position: relative;
-    margin-bottom: 2px solid black;
-    text-decoration:2px underline wavy #ffab4b;;
-    
+.navelementact {
+  margin: 2%;
+  color: black;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  text-decoration: 2px underline wavy #ffab4b;
+  ;
+
+
 }
 
 .footer-tittle {
-    text-align: center;
-    flex-grow: 1;
-    color: #575555;
- }
+  text-align: center;
+  flex-grow: 1;
+  color: #575555;
+}
 
-.vaca-tittle{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    width:420px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
-    font-family: sans-serif;
+.vaca-tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 420px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  font-family: sans-serif;
 }
 
 .age-calculate {
-	max-width: 600px;
-	width: 100%;
-	color: #fff;
-	margin: 0 auto;
-	text-align: center;
-	padding: 30px;
-	border-radius: 30px;
-	background: linear-gradient(to bottom, #007193 50%, #06024e);
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #007193 50%, #06024e);
 }
-.calculadora{
+
+.calculadora {
   padding-top: 20px;
 }
 
-.age-calculate input{
-	margin: 10px;
-	font-size:18px;
-	padding: 10px;
-	border-radius: 10px;
-	border:0;
+.age-calculate input {
+  margin: 10px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
 }
 
-.age-calculate button{
+.age-calculate button {
   width: 40%;
   margin: 10px;
   font-size: 16px;
@@ -155,215 +165,219 @@ margin-top: -1%;
   margin-left: 20px;
   display: inline-flex;
 }
-.age-container{
+
+.age-container {
   display: inline-block;
   align-items: center;
-  
+
 }
 
 
-.titapp{
-    box-sizing: border-box;
-    size: 1.5em;
-    font-size: xxlarger;
-    text-align: center;
-    color: darkcyan;
-  }
-  
-  .clock {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: rgb(187, 195, 212);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-    position: relative;
-    border: 8px solid rgb(9, 2, 69);
-  }
-  
-  .clock .number {
-    --rotation: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transform: rotate(var(--rotation));
-    font-size: 1.5rem;
-    color: #0820c2;
-  }
-  
-  .clock .number1 {
-    --rotation: 30deg;
-  }
-  
-  .clock .number2 {
-    --rotation: 60deg;
-  }
-  
-  .clock .number3 {
-    --rotation: 90deg;
-  }
-  
-  .clock .number4 {
-    --rotation: 120deg;
-  }
-  
-  .clock .number5 {
-    --rotation: 150deg;
-  }
-  
-  .clock .number6 {
-    --rotation: 180deg;
-  }
-  
-  .clock .number7 {
-    --rotation: 210deg;
-  }
-  
-  .clock .number8 {
-    --rotation: 240deg;
-  }
-  
-  .clock .number9 {
-    --rotation: 270deg;
-  }
-  
-  .clock .number10 {
-    --rotation: 300deg;
-  }
-  
-  .clock .number11 {
-    --rotation: 330deg;
-  }
-  
-  .clock .hand {
-    --rotation: 0;
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    background: black;
-    border: 1px solid white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transform-origin: bottom center;
-    z-index: 10;
-    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
-  }
-  /* css  reloj*/
-  .clock::after {
-    content: '';
-    position: absolute;
-    z-index: 11;
-    width: 15px;
-    height: 15px;
-    background: black;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .clock .hand.second {
-    --rotation: 0;
-    width: 3px;
-    height: 48%;
-    background: rgb(195, 8, 158);
-    animation: second 60s infinite linear;
-  }
-  
-  .clock .hand.minute {
-    --rotation: 0;
-    width: 7px;
-    height: 40%;
-    background: rgba(99, 34, 228, 0.865);
-    animation: second 60s infinite linear;
-  }
-  
-  .clock .hand.hour {
-    --rotation: 0;
-    width: 10px;
-    height: 30%;
-    background: rgba(38, 69, 243, 0.919);
-    animation: second 60s infinite linear;
-  }
-
-  /*About me*/
-  .infoxc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 20%;
-  }
-
-  .yo{
-    position: relative;
-  }
-
-  .aboutme{
-    display: flex;
-    margin: 1%;
-    flex-flow: row wrap;
+.titapp {
+  box-sizing: border-box;
+  size: 1.5em;
+  font-size: xxlarger;
+  text-align: center;
+  color: darkcyan;
 }
 
-.aboutme h1{
-    text-align: center;
-    font-weight: 400;
-    font-size: 48px;      
+.clock {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgb(187, 195, 212);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  position: relative;
+  border: 8px solid rgb(9, 2, 69);
 }
 
-.aboutme p{
-    text-align: justify; 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.5rem;
+  color: #0820c2;
 }
 
-.infoxc img{
-    object-fit: cover;
-    width:20%;
-    
+.clock .number1 {
+  --rotation: 30deg;
 }
+
+.clock .number2 {
+  --rotation: 60deg;
+}
+
+.clock .number3 {
+  --rotation: 90deg;
+}
+
+.clock .number4 {
+  --rotation: 120deg;
+}
+
+.clock .number5 {
+  --rotation: 150deg;
+}
+
+.clock .number6 {
+  --rotation: 180deg;
+}
+
+.clock .number7 {
+  --rotation: 210deg;
+}
+
+.clock .number8 {
+  --rotation: 240deg;
+}
+
+.clock .number9 {
+  --rotation: 270deg;
+}
+
+.clock .number10 {
+  --rotation: 300deg;
+}
+
+.clock .number11 {
+  --rotation: 330deg;
+}
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  background: black;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom center;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+/* css  reloj*/
+.clock::after {
+  content: '';
+  position: absolute;
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock .hand.second {
+  --rotation: 0;
+  width: 3px;
+  height: 48%;
+  background: rgb(195, 8, 158);
+  animation: second 60s infinite linear;
+}
+
+.clock .hand.minute {
+  --rotation: 0;
+  width: 7px;
+  height: 40%;
+  background: rgba(99, 34, 228, 0.865);
+  animation: second 60s infinite linear;
+}
+
+.clock .hand.hour {
+  --rotation: 0;
+  width: 10px;
+  height: 30%;
+  background: rgba(38, 69, 243, 0.919);
+  animation: second 60s infinite linear;
+}
+
+/*About me*/
+.infoxc {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 6 54 auto;
+}
+
+.yo {
+  position: relative;
+}
+
+.aboutme {
+  flex: 3 0 auto;
+  margin: 1%;
+  padding: 2%;
+  flex-flow: row wrap;
+}
+
+.aboutme h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.aboutme p {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.infoxc img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+ }
 
 /* form */
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius: 15px;
-    padding: 2%;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  padding: 2%;
 }
 
 .form-group {
-    margin: 2%;
-    display: flex;
-    padding: 2%;
+  margin: 2%;
+  display: flex;
+  padding: 2%;
 }
 
 .form-control {
-    width: 100%;
-    margin: 1%;
+  width: 100%;
+  margin: 1%;
 }
 
 .form-control ::selection {
-    color: rgb(12, 12, 134);
+  color: rgb(12, 12, 134);
 }
 
 .btn-send {
-    background-color: #18A0FB;
-    color:#fff;
-    border-radius: 6px;
-    width: 25%;
-    margin: 1%;
+  background-color: #18A0FB;
+  color: #fff;
+  border-radius: 6px;
+  width: 25%;
+  margin: 1%;
 }
+
 .imc {
-    background-color: #b2b1b1;
-    align-items: center;
-    text-align: center;
-    border-radius: 18px;
-    width: 20%;
+  background-color: #b2b1b1;
+  align-items: center;
+  text-align: center;
+  border-radius: 18px;
+  width: 20%;
 }
+
 /* hamburg*/
 .header {
   display: flex;
@@ -377,48 +391,49 @@ margin-top: -1%;
   padding: 1rem;
 }
 
-   /* Estilos móvil/celular */
-   @media all and (max-width: 700px) {
+/* Estilos móvil/celular */
+@media all and (max-width: 700px) {
 
-    /* Oculta el nav en la parte izquiera */
-    .nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: red;
-      transform: translateX(-100vw);
-      transition: 0.5s;
-    }
-
-    /* Muestra el nav */
-    .nav--show {
-      transform: translateX(0);
-    }
-
-    .nav__button {
-      text-align: right;
-      margin: 1rem;
-    }
-
-    .nav__ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .nav__link {
-      display: block;
-      padding: 1rem;
-      font-size: 1.5rem;
-      text-align: center;
-      text-decoration: none;
-      color: black;
-    }
+  /* Oculta el nav en la parte izquiera */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    transform: translateX(-100vw);
+    transition: 0.5s;
   }
- /* Estilos Escritorio */
- @media all and (min-width: 701px) {
+
+  /* Muestra el nav */
+  .nav--show {
+    transform: translateX(0);
+  }
+
+  .nav__button {
+    text-align: right;
+    margin: 1rem;
+  }
+
+  .nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* Estilos Escritorio */
+@media all and (min-width: 701px) {
 
   /* Oculta botón de abrir o cerrar */
   .nav__button,

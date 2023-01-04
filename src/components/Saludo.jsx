@@ -8,9 +8,11 @@ const Saludo = () => {
   };
 
   return (
+    <>
     <div className="infoxc">
       <img src={info.img} alt="Alexander Cangas" />
-      <div className="aboutme">
+    </div>
+    <div className="aboutme">
         <h1>{info.nombre}</h1>
         <p>My age: {info.edad}
           Hi, I am a Computer Systems Engineer. Systems Assistant at Vehicle Dealership.
@@ -27,7 +29,7 @@ const Saludo = () => {
           </ul>
         Currently expanding knowledge as a Full Stack programmer in React and Springboot</p>
       </div>
-    </div>
+    </>
   );
 }
 
