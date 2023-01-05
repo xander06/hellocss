@@ -1,8 +1,6 @@
 # App Playground con React
 
-<img src='./public/img/logo.png'> 
-
-- In this repository you can  see at small applications developer with con React, in the "[Kruger Start](https://www.youtube.com/@KrugerCorp)   "
+<img src='./public/img/logo.png'>  - In this repository you can  see at small applications developer with con React, in the "[Kruger Start](https://www.youtube.com/@KrugerCorp)   "
 
 <img src='./public/img/screenapp.JPG'>
 
