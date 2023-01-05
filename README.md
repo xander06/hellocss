@@ -7,18 +7,18 @@
 <img src='./public/img/screenapp.JPG'>
 
 
-## Built With
+## Built With 👣👍🧑‍🏫
 
-- HTML
-- CSS
-- Git
-- JavaScript
+- 🪵 HTML  
+- 🛖 CSS
+- 📚 Git
+- 🚙⚙️JavaScript
 
 ## Getting Started
 
 **In this repository I will upload some of my applications deveolped in Kruger Start.**
 
-## Run it
+## Run it 🏃‍♂️🏁🏳️
 
 Use the following steps to run this Portfolio locally:
 
@@ -51,11 +51,11 @@ https://xanderhellocss.netlify.app/
 
 Contributions, issues, and feature requests are welcome!
 
-## License
+## License ©️
 
 X@NDER06
 **Free Software, Yeah!**
-
+😎🧑‍💻🆓
 
 ## Roadmap
 
