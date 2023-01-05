@@ -33,7 +33,7 @@ Use the following steps to run this Portfolio locally:
 - go to the index.html file and open it with live server
 
 
-### Deployment
+### Deployment 🫣😊👌😁
 
 For a live demo please click on the following link:
 
